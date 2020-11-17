@@ -1,0 +1,91 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background: black;
+    font-family: sans-serif;
+    color: white;
+    font-size: 120%;
+    text-align: center;
+}
+
+.header
+{
+
+    width: 30% ;
+    margin: 30px auto;
+    padding: 40px;
+    border: 3px solid blueviolet;
+    border-radius: 24px;
+    border-bottom: none;
+    transition: 3s;
+}
+
+.bluelinebody
+{
+    width: 30%;
+    margin: -30px auto;
+    padding: 30px;
+    border: 3px solid blueviolet;
+    border-radius: 24px;
+}
+
+a
+{
+    color: blueviolet;
+}
+
+.greenlinebody
+{
+   text-align: center; 
+}
+
+.greenlinebody label
+{
+   display: block;
+   text-align: center;
+   margin: 15px;
+}
+
+.greenlinebody input
+{
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    border: 3px solid blueviolet;
+    border-radius: 24px;
+    padding: 10px 30px;
+}
+
+.greenlinebody button
+{
+    background: none;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    border: 3px solid greenyellow;
+    border-radius: 24px;
+    margin: 20px;
+    padding: 10px 40px;
+}
+
+.greenlinebody input:focus
+{
+    width: 90%;
+    border: 3px solid greenyellow;
+}
+
+.greenlinebody button:focus
+{
+    background: blueviolet;
+    border: 3px solid blueviolet;
+}
+
+
